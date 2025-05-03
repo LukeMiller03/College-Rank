@@ -1,0 +1,10 @@
+# Data Dictionary: College Rankings Dataset
+
+| Column Name         | Type    | Description                                      | Source                      | Notes                       |
+|---------------------|---------|--------------------------------------------------|-----------------------------|-----------------------------|
+| Rank                | int     | Current year rank of the university              | College Raptor              | Lower rank = better         |
+| School Name         | string  | Full name of the institution                     | College Raptor              | Standardized text           |
+| Prior Rank          | int     | Last year’s rank                                 | College Raptor              | For comparing rank changes  |
+| Scaled Score        | string  | Score + % change                                 | College Raptor              | Needs cleaning              |
+| Prior Scaled Score  | float   | Previous year’s scaled score                     | College Raptor              | Numeric format              |
+
