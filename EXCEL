@@ -1,0 +1,4 @@
+import pandas as pd
+
+df = pd.read_csv('data/college_rankings_raptor2.csv')
+df.head()
